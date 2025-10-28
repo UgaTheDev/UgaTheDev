@@ -22,7 +22,7 @@ const developer = {
     location: "Boston, MA 🇺🇸",
     education: "Boston University - Computer Science Student",
     interests: ["AI/ML", "Web Development"],
-    currentlyLearning: ["AWS, Python DSA, TypeScript"],
+    currentlyLearning: ["AWS, Python DSA"],
 };
 ```
 
