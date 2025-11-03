@@ -21,7 +21,7 @@ const developer = {
     role: "Aspiring Software Developer",
     location: "Boston, MA 🇺🇸",
     education: "Boston University - Computer Science Student",
-    interests: ["AI/ML", "Web Development"],
+    interests: ["AI/ML", "Web Development", "Cybersecurity"],
     currentlyLearning: ["AWS, Python DSA"],
 };
 ```
@@ -59,7 +59,7 @@ const developer = {
 ![AI](https://img.shields.io/badge/Gemini_AI-%234285F4.svg?style=flat&logo=google&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
 
-- 🏆 BostonHacks 2025 Winner
+- 🏆 BostonHacks 2025 Best Use of AI and LLMs Winner
 - 🤖 Real-time AI dialogue
 - 💾 Persistent relationships
 - 🎮 Procedural generation
