@@ -42,7 +42,7 @@ const developer = {
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=flat&logo=flask&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=flat&logo=postgresql&logoColor=white)
 
-- 🎯 300+ active users
+- 🎯 500+ active users
 - 📊 6000+ courses tracked
 - 🔐 Google OAuth integration
 
