@@ -14,7 +14,6 @@
 ---
 
 ## 🚀 About Me
-
 ```typescript
 const developer = {
     name: "Kush Zingade",
@@ -42,12 +41,54 @@ const developer = {
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=flat&logo=flask&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=flat&logo=postgresql&logoColor=white)
 
-- 🎯 500+ active users
+- 🎯 600+ active users
 - 📊 6000+ courses tracked
 - 🔐 Google OAuth integration
+- 📄 PDF import from MyBU schedules
 
 [View Project →](https://github.com/ugathedev/terrier-tracker)
 [Deployed Link →](https://terriertracker.vercel.app)
+
+</td>
+<td width="50%">
+
+### 🎭 HSCA Portal
+**Honor Society Management System**
+
+![Next.js](https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=flat&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=flat&logo=Prisma&logoColor=white)
+
+- 🏢 Comprehensive chapter management
+- 💳 Integrated billing terminals
+- 👥 Role-based permission system
+- 📖 Educational resource library
+- 🛡️ Advanced authentication
+
+[Deployed Link →](https://hscaportal.vercel.app)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### ⚛️ Quantum Entanglement Explorer
+**Interactive Educational Physics Platform**
+
+![Next.js](https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-black?style=flat&logo=three.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
+![AI](https://img.shields.io/badge/Gemini_AI-%234285F4.svg?style=flat&logo=google&logoColor=white)
+
+- 🔬 Interactive 3D quantum visualizations
+- 🤖 AI-powered concept grading
+- 📚 Comprehensive learning modules
+- 🎨 Immersive particle animations
+
+[View Project →](https://github.com/UgaTheDev/H4I_techassessment)
+[Deployed Link →](https://h4iideacon.vercel.app)
 
 </td>
 <td width="50%">
@@ -59,10 +100,10 @@ const developer = {
 ![AI](https://img.shields.io/badge/Gemini_AI-%234285F4.svg?style=flat&logo=google&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
 
-- 🏆 BostonHacks 2025 Best Use of AI and LLMs Winner
-- 🤖 Real-time AI dialogue
-- 💾 Persistent relationships
-- 🎮 Procedural generation
+- 🏆 **BostonHacks 2025 Winner** - Best Use of AI & LLMs
+- 🤖 Real-time AI dialogue system
+- 💾 Persistent character relationships
+- 🎮 Procedural level generation
 
 [View Project →](https://github.com/ugathedev/dynamicmariobros)
 
@@ -71,6 +112,7 @@ const developer = {
 </table>
 
 ---
+
 ## 🛠️ Tech Stack
 
 <div align="center">
@@ -90,6 +132,8 @@ const developer = {
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Three.js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-131415?style=for-the-badge&logo=railway&logoColor=white)
@@ -102,6 +146,15 @@ const developer = {
 ![Google Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=google&logoColor=white)
 
 </div>
+
+---
+
+## 🏆 Achievements
+
+- 🥇 **BostonHacks 2025** - Best Use of AI & LLMs
+- 🎯 **Code and Tell** - Audience Choice Award
+- 📈 Built platform serving **600+ active students**
+- 🚀 Developed **multiple full-stack production applications**
 
 ---
 
