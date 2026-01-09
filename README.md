@@ -46,7 +46,7 @@ const developer = {
 - 🔐 Google OAuth integration
 - 📄 PDF import from MyBU schedules
 
-[View Project →](https://github.com/ugathedev/terrier-tracker)
+[View Project →](https://github.com/ugathedev/terriertracker)
 [Deployed Link →](https://terriertracker.vercel.app)
 
 </td>
