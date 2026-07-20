@@ -1,153 +1,130 @@
-# 👋 Hi, I'm Kush!
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Computer+Science+Student;Software+Engineer;Building+Cool+Stuff" alt="Typing SVG" />
-</div>
-
 <div align="center">
 
-  [![Portfolio](https://img.shields.io/badge/Portfolio-%23A855F7.svg?style=for-the-badge&logo=googlechrome&logoColor=white)](https://kushzingade.vercel.app)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kush-zingade)
-  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kush.zingade@gmail.com)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=30&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Kush+Zingade;CTO+%26+Sole+Engineer+%40+HSCA;AI+%C3%97+Software+Engineer;I+ship+production+systems." alt="Kush Zingade" />
+
+<p>
+  <em>CS @ Boston University · Kilachand Honors · Building things people actually use.</em>
+</p>
+
+<p>
+  <a href="https://kushzingade.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0B1120?style=for-the-badge&logo=vercel&logoColor=38BDF8" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/kush-zingade"><img src="https://img.shields.io/badge/LinkedIn-0B1120?style=for-the-badge&logo=linkedin&logoColor=38BDF8" alt="LinkedIn" /></a>
+  <a href="mailto:kush.zingade@gmail.com"><img src="https://img.shields.io/badge/Email-0B1120?style=for-the-badge&logo=gmail&logoColor=38BDF8" alt="Email" /></a>
+  <img src="https://komarev.com/ghpvc/?username=UgaTheDev&style=for-the-badge&color=38BDF8&label=PROFILE+VIEWS" alt="views" />
+</p>
 
 </div>
 
 ---
 
-## 🚀 About Me
-```typescript
-const developer = {
-    name: "Kush Zingade",
-    role: "Aspiring Software Developer",
-    location: "Boston, MA 🇺🇸",
-    education: "Boston University - Computer Science Student",
-    interests: ["AI/ML", "Web Development", "Cybersecurity"],
-    currentlyLearning: ["AWS, Python DSA"],
+### `~/whoami`
+
+```ts
+const kush = {
+  role:      "CTO & Sole Engineer @ Honor Society of Cinematic Arts",
+  studying:  "BS Computer Science + DS minor, BU Kilachand Honors (May 2028, accelerated)",
+  based:     "Boston, MA  🇺🇸",
+  focus:     ["full-stack systems", "applied AI / LLM agents", "fintech infrastructure"],
+  shipping:  "multi-tenant platforms, RAG systems, and things with real users",
+  ask_me:    "production architecture, Redis/Postgres, LangGraph + MCP, RAG",
 };
 ```
 
+I like problems that live in production — auth models that can't leak, caches that hold under load,
+LLM systems that stay honest. Most of what's below is running right now for real users.
+
 ---
 
-## 💼 Featured Projects
+### 🛠️ Currently building
+
+| Where | Role | What I'm shipping |
+|-------|------|-------------------|
+| **Honor Society of Cinematic Arts** | CTO & Sole Engineer | Production multi-tenant platform (React/TS · Node/Express · Postgres) — **250+ endpoint REST API**, live across **15+ chapters & 150+ members**, with a 3-dimensional authorization model + billing engine |
+| **BU Spark!** | Software Engineer Intern | OCR confidence-preservation layer (Python/FastAPI) for a **Harvard Herbaria** ML digitization platform; SSRF + authz hardening |
+| **Doro (Local Treasure)** | Software Engineer Intern | TikTok OAuth (Login Kit), Stripe checkout, and an internal UGC-moderation dashboard on a Django/DRF platform |
+| **BU CISS** | Undergraduate Research Assistant | Financial-market responses to geopolitical uncertainty — survey design + Python data workflows |
+
+<sub>Previously: AI & Software Engineer Intern @ HireBuddy · Lead SWE @ Hack4Impact BU</sub>
+
+---
+
+### 🚀 Featured projects
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🎓 Terrier Tracker
-**Full-Stack Academic Planning Platform**
+#### 🏦 Atlas — Digital Twin of the Global Financial System
+`TypeScript` · `Node.js` · `D3.js` · `SQLite`
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=flat&logo=flask&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=flat&logo=postgresql&logoColor=white)
+Interactive simulation of banks, central banks, clearinghouses & payment
+rails (RTGS, ACH, SWIFT, CLS, DTCC) with autonomous agents. Systemic-risk
+analysis (centrality, min failure sets, Monte-Carlo), crisis replay, and a
+hand-written regulatory DSL compiler.
 
-- 🎯 600+ active users
-- 📊 6000+ courses tracked
-- 🔐 Google OAuth integration
-- 📄 PDF import from MyBU schedules
-
-[View Project →](https://github.com/ugathedev/terriertracker)
-[Deployed Link →](https://terriertracker.vercel.app)
+**8-package monorepo · 478 tests**
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🧠 InstructLab KnowFlow
-**AI Agent for Domain Knowledge Contribution**
+#### 🎓 Terrier Tracker
+`Flask` · `React` · `Postgres` · `Redis` · `pgvector`
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-%23000000.svg?style=flat&logoColor=white)
+Academic degree-planner serving **~900 BU students** across **6,000+ courses**
+as sole dev. Gemini + pgvector RAG recommender over ~150 API routes.
 
-- 🏆 **Red Hat-IBM Hackathon Winner** — Best Use of AI Templates
-- 🤖 Conversational agent with real-time reasoning visualization
-- 📦 Auto-generates InstructLab-compatible files
-- 🚀 No Git/YAML expertise required for contributors
+**~81% Redis cache-hit rate · 66k+ production lookups**
 
-[View Project →](https://github.com/UgaTheDev/InstructLab-KnowFLow)
+[Live ↗](https://terriertracker.vercel.app)
 
 </td>
 </tr>
-
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🎭 HSCA Portal
-**Honor Society Management System**
+#### 🧠 InstructLab KnowFlow
+`Python` · `LangGraph` · `FastAPI` · `MCP`
 
-![Next.js](https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=flat&logo=postgresql&logoColor=white)
+LangGraph + MCP agentic workflow that automates InstructLab knowledge
+contributions — no Git/YAML expertise required.
 
-- 🏢 Comprehensive chapter management
-- 💳 Integrated billing terminals
-- 👥 Role-based permission system
-- 📖 Educational resource library
-- 🛡️ Advanced authentication
-
-[Deployed Link →](https://hscaportal.vercel.app)
+**🏆 Best Use of AI, Red Hat–IBM Hackathon** (accepted for upstream evaluation)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🚀 HackBU
-**Hackathon Platform & Bounty Board**
+#### 🎭 HSCA Portal
+`Next.js` · `TypeScript` · `Postgres`
 
-![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat&logo=astro&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
+The production system of record behind my CTO role — member lifecycle,
+payment-gated resources, evaluation forms & a film festival, on a 250+
+endpoint API with per-chapter tenant isolation.
 
-- 🏗️ Hybrid SSR/static platform with Astro
-- 📧 Tag-based state machine on Mailchimp for team formation
-- 🔒 Rate-limited admin dashboard with live data aggregation
-- 📝 Zod-validated content collection — zero code changes to add bounties
-
-[View Project →](https://github.com/BU-Spark/hackbu-web)
-[Deployed Link →](https://hackbu.dev)
+[Live ↗](https://hscaportal.vercel.app)
 
 </td>
 </tr>
-
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🌐 3D Portfolio
-**Immersive Three.js Portfolio Experience**
+#### 🌐 3D Portfolio
+`React` · `Three.js` · `TypeScript`
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
-![Three.js](https://img.shields.io/badge/Three.js-black?style=flat&logo=three.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
+Immersive interactive room with multi-room navigation, a live GitHub
+contribution heatmap, and a 2D mobile fallback.
 
-- 🏠 Interactive 3D room with clickable objects
-- 🔬 Multi-room navigation (Main Room + Lab)
-- 📊 Live GitHub contribution heatmap
-- 📱 2D mobile fallback mode
-
-[View Project →](https://github.com/UgaTheDev/portfolio-3d)
-[Deployed Link →](https://kushzingade.vercel.app)
+[Live ↗](https://kushzingade.vercel.app)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### ⚛️ Quantum Entanglement Explorer
-**Interactive Educational Physics Platform**
+#### ⚛️ Quantum Entanglement Explorer
+`Next.js` · `Three.js` · `Gemini`
 
-![Next.js](https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-black?style=flat&logo=three.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
-![AI](https://img.shields.io/badge/Gemini_AI-%234285F4.svg?style=flat&logo=google&logoColor=white)
+Interactive physics-education platform with 3D quantum visualizations and
+AI-powered concept grading.
 
-- 🔬 Interactive 3D quantum visualizations
-- 🤖 AI-powered concept grading
-- 📚 Comprehensive learning modules
-- 🎨 Immersive particle animations
-
-[View Project →](https://github.com/UgaTheDev/H4I_techassessment)
-[Deployed Link →](https://h4iideacon.vercel.app)
+[Live ↗](https://h4iideacon.vercel.app)
 
 </td>
 </tr>
@@ -155,74 +132,62 @@ const developer = {
 
 ---
 
-## 🛠️ Tech Stack
+### 🧰 Tech
+
+**Languages**
+![Python](https://img.shields.io/badge/Python-0B1120?style=flat-square&logo=python&logoColor=3776AB)
+![TypeScript](https://img.shields.io/badge/TypeScript-0B1120?style=flat-square&logo=typescript&logoColor=3178C6)
+![JavaScript](https://img.shields.io/badge/JavaScript-0B1120?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![C](https://img.shields.io/badge/C-0B1120?style=flat-square&logo=c&logoColor=A8B9CC)
+![SQL](https://img.shields.io/badge/SQL-0B1120?style=flat-square&logo=postgresql&logoColor=4169E1)
+![PHP](https://img.shields.io/badge/PHP-0B1120?style=flat-square&logo=php&logoColor=777BB4)
+
+**AI / ML**
+![LangGraph](https://img.shields.io/badge/LangGraph-0B1120?style=flat-square&logo=langchain&logoColor=1C3C3C)
+![MCP](https://img.shields.io/badge/MCP-0B1120?style=flat-square&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-0B1120?style=flat-square&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-0B1120?style=flat-square&logo=googlegemini&logoColor=8E75B2)
+![pgvector](https://img.shields.io/badge/pgvector%2FRAG-0B1120?style=flat-square&logo=postgresql&logoColor=4169E1)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-0B1120?style=flat-square&logo=elasticsearch&logoColor=005571)
+
+**Backend & Data**
+![FastAPI](https://img.shields.io/badge/FastAPI-0B1120?style=flat-square&logo=fastapi&logoColor=009688)
+![Flask](https://img.shields.io/badge/Flask-0B1120?style=flat-square&logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-0B1120?style=flat-square&logo=nodedotjs&logoColor=5FA04E)
+![Express](https://img.shields.io/badge/Express-0B1120?style=flat-square&logo=express&logoColor=white)
+![Django](https://img.shields.io/badge/Django-0B1120?style=flat-square&logo=django&logoColor=092E20)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0B1120?style=flat-square&logo=postgresql&logoColor=4169E1)
+![Redis](https://img.shields.io/badge/Redis-0B1120?style=flat-square&logo=redis&logoColor=FF4438)
+
+**Frontend**
+![React](https://img.shields.io/badge/React-0B1120?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-0B1120?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-0B1120?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
+![Three.js](https://img.shields.io/badge/Three.js-0B1120?style=flat-square&logo=threedotjs&logoColor=white)
+
+**Cloud & DevOps**
+![AWS](https://img.shields.io/badge/AWS-0B1120?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
+![Docker](https://img.shields.io/badge/Docker-0B1120?style=flat-square&logo=docker&logoColor=2496ED)
+![Vercel](https://img.shields.io/badge/Vercel-0B1120?style=flat-square&logo=vercel&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B1120?style=flat-square&logo=railway&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-0B1120?style=flat-square&logo=stripe&logoColor=635BFF)
+![Git](https://img.shields.io/badge/Git-0B1120?style=flat-square&logo=git&logoColor=F05032)
+
+---
 
 <div align="center">
 
-### Languages
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-%2300758F.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=UgaTheDev&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=C9D1D9" alt="stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UgaTheDev&layout=compact&hide_border=true&langs_count=8&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" alt="top langs" />
 
-### AI / ML
-![LangGraph](https://img.shields.io/badge/LangGraph-%23000000.svg?style=for-the-badge&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-%23000000.svg?style=for-the-badge&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-3d348b?style=for-the-badge&logo=opentelemetry&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+<img src="https://github-readme-streak-stats.herokuapp.com?user=UgaTheDev&hide_border=true&background=0D1117&stroke=1F2A37&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8&sideNums=C9D1D9&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&dayLabels=C9D1D9" alt="streak" />
 
-### Backend
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-
-### Frontend
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Three.js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
-![PatternFly](https://img.shields.io/badge/PatternFly-%23004080.svg?style=for-the-badge&logoColor=white)
-
-### Tools & DevOps
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-131415?style=for-the-badge&logo=railway&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-
-### Databases
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+<img src="https://github-profile-trophy.vercel.app/?username=UgaTheDev&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4" alt="trophies" />
 
 </div>
 
 ---
 
-## 🏆 Achievements
-
-- 🥇 **Red Hat-IBM OpenAccelerator Hackathon** — Best Use of AI Templates
-- 🎯 **Code and Tell** — Audience Choice Award
-- 📈 Built platform serving **600+ active students**
-- 🚀 Developed **multiple full-stack production applications**
-
----
-
-## 🤝 Let's Connect!
-
 <div align="center">
-
-**I'm always open to interesting conversations and collaboration opportunities!**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kush-zingade)
-[![Email](https://img.shields.io/badge/Email-Drop_a_Line-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kush.zingade@gmail.com)
-
+<sub>🏆 Red Hat–IBM Hackathon — Best Use of AI · Code &amp; Tell — Audience Choice</sub>
 </div>
