@@ -40,7 +40,7 @@ LLM systems that stay honest. Most of what's below is running right now for real
 | Where | Role | What I'm shipping |
 |-------|------|-------------------|
 | **Honor Society of Cinematic Arts** | CTO & Sole Engineer | Production multi-tenant platform (React/TS · Node/Express · Postgres) — **250+ endpoint REST API**, live across **15+ chapters & 150+ members**, with a 3-dimensional authorization model + billing engine |
-| **BU Spark!** | Software Engineer Intern | OCR confidence-preservation layer (Python/FastAPI) for a **Harvard Herbaria** ML digitization platform; SSRF + authz hardening |
+| **BU Spark!** | Software Engineer Intern | OCR confidence-preservation layer (Python/FastAPI) for a **Harvard Herbaria** ML digitization platform (SSRF + authz hardening), plus a Next.js/Prisma **micro-credentialing** badge platform (SE-Chem) |
 | **Doro (Local Treasure)** | Software Engineer Intern | TikTok OAuth (Login Kit), Stripe checkout, and an internal UGC-moderation dashboard on a Django/DRF platform |
 | **BU CISS** | Undergraduate Research Assistant | Financial-market responses to geopolitical uncertainty — survey design + Python data workflows |
 
@@ -63,6 +63,8 @@ analysis (centrality, min failure sets, Monte-Carlo), crisis replay, and a
 hand-written regulatory DSL compiler.
 
 **8-package monorepo · 478 tests**
+
+[Live ↗](https://atlas-kzingade.vercel.app) · [Code ↗](https://github.com/UgaTheDev/Atlas)
 
 </td>
 <td width="50%" valign="top">
