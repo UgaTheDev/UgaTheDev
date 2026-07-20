@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" font-family="'Trebuchet MS','Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0F1A"/>
+      <stop offset="1" stop-color="#0E1B24"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34D399"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#14B8A6" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#14B8A6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#8FC8C0" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="340" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="18" fill="url(#grid)"/>
+  <rect width="1280" height="340" rx="18" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1278" height="338" rx="17" fill="none" stroke="#1E3A44" stroke-width="1"/>
+
+  <!-- name -->
+  <text x="64" y="130" font-size="70" font-weight="800" fill="url(#accent)" letter-spacing="-1">Kush Zingade</text>
+  <text x="66" y="176" font-size="23" font-weight="600" fill="#C9E3E8">CTO &amp; Engineer  ·  AI × Software  ·  Fintech Infrastructure</text>
+  <text x="66" y="208" font-size="16" fill="#83A6B4">Boston, MA · BU Kilachand Honors (CS + Data Science, May 2028) · U.S. Citizen</text>
+
+  <!-- role chips -->
+  <g font-size="15" font-weight="600">
+    <rect x="64" y="244" width="212" height="40" rx="20" fill="#0F2029" stroke="#34D399" stroke-opacity="0.6"/>
+    <text x="86" y="269" fill="#C9E3E8">Full-stack systems</text>
+    <rect x="288" y="244" width="238" height="40" rx="20" fill="#0F2029" stroke="#22D3EE" stroke-opacity="0.6"/>
+    <text x="310" y="269" fill="#C9E3E8">Applied AI / LLM agents</text>
+    <rect x="538" y="244" width="252" height="40" rx="20" fill="#0F2029" stroke="#2563EB" stroke-opacity="0.6"/>
+    <text x="560" y="269" fill="#C9E3E8">Production infrastructure</text>
+  </g>
+
+  <!-- metric pills (right) -->
+  <g text-anchor="middle">
+    <text x="1090" y="96" font-size="40" font-weight="800" fill="url(#accent)">900+</text>
+    <text x="1090" y="118" font-size="13" fill="#83A6B4">ACTIVE USERS</text>
+    <text x="1210" y="96" font-size="40" font-weight="800" fill="url(#accent)">478</text>
+    <text x="1210" y="118" font-size="13" fill="#83A6B4">TESTS</text>
+    <text x="1090" y="188" font-size="40" font-weight="800" fill="url(#accent)">250+</text>
+    <text x="1090" y="210" font-size="13" fill="#83A6B4">ENDPOINTS</text>
+    <text x="1210" y="188" font-size="40" font-weight="800" fill="url(#accent)">15+</text>
+    <text x="1210" y="210" font-size="13" fill="#83A6B4">CHAPTERS</text>
+  </g>
+</svg>

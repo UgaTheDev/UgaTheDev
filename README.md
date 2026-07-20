@@ -1,195 +1,186 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=30&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Kush+Zingade;CTO+%26+Sole+Engineer+%40+HSCA;AI+%C3%97+Software+Engineer;I+ship+production+systems." alt="Kush Zingade" />
+<img src="assets/hero.svg" width="100%" alt="Kush Zingade — CTO & Engineer" />
 
 <p>
-  <em>CS @ Boston University · Kilachand Honors · Building things people actually use.</em>
-</p>
-
-<p>
-  <a href="https://kushzingade.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0B1120?style=for-the-badge&logo=vercel&logoColor=38BDF8" alt="Portfolio" /></a>
-  <a href="https://linkedin.com/in/kush-zingade"><img src="https://img.shields.io/badge/LinkedIn-0B1120?style=for-the-badge&logo=linkedin&logoColor=38BDF8" alt="LinkedIn" /></a>
-  <a href="mailto:kush.zingade@gmail.com"><img src="https://img.shields.io/badge/Email-0B1120?style=for-the-badge&logo=gmail&logoColor=38BDF8" alt="Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=UgaTheDev&style=for-the-badge&color=38BDF8&label=PROFILE+VIEWS" alt="views" />
+  <a href="https://kushzingade.vercel.app"><img src="https://img.shields.io/badge/Portfolio-10B981?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/kush-zingade"><img src="https://img.shields.io/badge/LinkedIn-14B8A6?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:kush.zingade@gmail.com"><img src="https://img.shields.io/badge/Email-2563EB?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <img src="https://komarev.com/ghpvc/?username=UgaTheDev&style=for-the-badge&color=10B981&label=VIEWS&base=300" />
 </p>
 
 </div>
 
----
+> **Accelerated CS @ Boston University — but I'd rather show you what I've shipped.**
+> A degree planner used by ~900 students, a nonprofit's entire 250+ endpoint platform, and award-winning AI agents.
 
-### `~/whoami`
+### 📈 Contribution activity
 
-```ts
-const kush = {
-  role:      "CTO & Sole Engineer @ Honor Society of Cinematic Arts",
-  studying:  "BS Computer Science + DS minor, BU Kilachand Honors (May 2028, accelerated)",
-  based:     "Boston, MA  🇺🇸",
-  focus:     ["full-stack systems", "applied AI / LLM agents", "fintech infrastructure"],
-  shipping:  "multi-tenant platforms, RAG systems, and things with real users",
-  ask_me:    "production architecture, Redis/Postgres, LangGraph + MCP, RAG",
-};
-```
-
-I like problems that live in production — auth models that can't leak, caches that hold under load,
-LLM systems that stay honest. Most of what's below is running right now for real users.
+<div align="center">
+<img src="https://ghchart.rshah.org/10B981/UgaTheDev" width="98%" alt="contribution calendar" />
+</div>
 
 ---
 
-### 🛠️ Currently building
+### 🧩 Currently building
 
-| Where | Role | What I'm shipping |
-|-------|------|-------------------|
-| **Honor Society of Cinematic Arts** | CTO & Sole Engineer | Production multi-tenant platform (React/TS · Node/Express · Postgres) — **250+ endpoint REST API**, live across **15+ chapters & 150+ members**, with a 3-dimensional authorization model + billing engine |
-| **BU Spark!** | Software Engineer Intern | OCR confidence-preservation layer (Python/FastAPI) for a **Harvard Herbaria** ML digitization platform (SSRF + authz hardening), plus a Next.js/Prisma **micro-credentialing** badge platform (SE-Chem) |
-| **Doro (Local Treasure)** | Software Engineer Intern | TikTok OAuth (Login Kit), Stripe checkout, and an internal UGC-moderation dashboard on a Django/DRF platform |
-| **BU CISS** | Undergraduate Research Assistant | Financial-market responses to geopolitical uncertainty — survey design + Python data workflows |
+<table>
+<tr>
+<td width="25%" align="center" valign="top"><br><b>CTO & Sole Engineer</b><br><sub>Honor Society of Cinematic Arts</sub><br><br><sub>Multi-tenant platform · 250+ endpoint API · live across 15+ chapters & 150+ members</sub></td>
+<td width="25%" align="center" valign="top"><br><b>SWE Intern</b><br><sub>BU Spark!</sub><br><br><sub>Harvard Herbaria OCR confidence layer (FastAPI) + micro-credentialing platform</sub></td>
+<td width="25%" align="center" valign="top"><br><b>SWE Intern</b><br><sub>Doro (Local Treasure)</sub><br><br><sub>TikTok OAuth, Stripe checkout & moderation tooling (Django/DRF)</sub></td>
+<td width="25%" align="center" valign="top"><br><b>Research Assistant</b><br><sub>BU CISS</sub><br><br><sub>Financial markets × geopolitical uncertainty · Python data workflows</sub></td>
+</tr>
+</table>
 
-<sub>Previously: AI & Software Engineer Intern @ HireBuddy · Lead SWE @ Hack4Impact BU</sub>
+<sub>Previously — AI & Software Engineer Intern @ HireBuddy · Lead Software Engineer @ Hack4Impact BU</sub>
 
 ---
 
-### 🚀 Featured projects
+### 🚀 Featured work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
+<a href="https://atlas-kzingade.vercel.app"><img src="assets/atlas.png" width="100%" alt="Atlas" /></a>
+
 #### 🏦 Atlas — Digital Twin of the Global Financial System
-`TypeScript` · `Node.js` · `D3.js` · `SQLite`
+Autonomous banks, central banks & payment rails (RTGS/ACH/SWIFT/CLS/DTCC), systemic-risk analysis, crisis replay & a hand-written regulatory DSL.
 
-Interactive simulation of banks, central banks, clearinghouses & payment
-rails (RTGS, ACH, SWIFT, CLS, DTCC) with autonomous agents. Systemic-risk
-analysis (centrality, min failure sets, Monte-Carlo), crisis replay, and a
-hand-written regulatory DSL compiler.
+![TypeScript](https://img.shields.io/badge/TypeScript-10B981?style=flat-square&logo=typescript&logoColor=white)
+![Node](https://img.shields.io/badge/Node.js-10B981?style=flat-square&logo=nodedotjs&logoColor=white)
+![Tests](https://img.shields.io/badge/478_tests-14B8A6?style=flat-square)
 
-**8-package monorepo · 478 tests**
-
-[Live ↗](https://atlas-kzingade.vercel.app) · [Code ↗](https://github.com/UgaTheDev/Atlas)
+<a href="https://atlas-kzingade.vercel.app"><b>▶ Live demo</b></a> · <a href="https://github.com/UgaTheDev/Atlas">Code</a>
 
 </td>
 <td width="50%" valign="top">
+
+<a href="https://terriertracker.vercel.app"><img src="assets/terrier.png" width="100%" alt="Terrier Tracker" /></a>
 
 #### 🎓 Terrier Tracker
-`Flask` · `React` · `Postgres` · `Redis` · `pgvector`
+Degree planning for **~900 BU students** across 6,000+ courses. Gemini + pgvector RAG recommender; Redis layer at **~81% hit rate** over 66k+ lookups.
 
-Academic degree-planner serving **~900 BU students** across **6,000+ courses**
-as sole dev. Gemini + pgvector RAG recommender over ~150 API routes.
+![Flask](https://img.shields.io/badge/Flask-2563EB?style=flat-square&logo=flask&logoColor=black)
+![React](https://img.shields.io/badge/React-2563EB?style=flat-square&logo=react&logoColor=black)
+![Redis](https://img.shields.io/badge/Redis-2563EB?style=flat-square&logo=redis&logoColor=white)
 
-**~81% Redis cache-hit rate · 66k+ production lookups**
-
-[Live ↗](https://terriertracker.vercel.app)
+<a href="https://terriertracker.vercel.app"><b>▶ Live demo</b></a>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### 🧠 InstructLab KnowFlow
-`Python` · `LangGraph` · `FastAPI` · `MCP`
-
-LangGraph + MCP agentic workflow that automates InstructLab knowledge
-contributions — no Git/YAML expertise required.
-
-**🏆 Best Use of AI, Red Hat–IBM Hackathon** (accepted for upstream evaluation)
-
-</td>
-<td width="50%" valign="top">
+<a href="https://hscaportal.vercel.app"><img src="assets/hsca.png" width="100%" alt="HSCA Portal" /></a>
 
 #### 🎭 HSCA Portal
-`Next.js` · `TypeScript` · `Postgres`
+The production system of record behind my CTO role — member lifecycle, payment-gated resources, evaluation forms & a film festival, with per-chapter tenant isolation.
 
-The production system of record behind my CTO role — member lifecycle,
-payment-gated resources, evaluation forms & a film festival, on a 250+
-endpoint API with per-chapter tenant isolation.
+![Next.js](https://img.shields.io/badge/Next.js-14B8A6?style=flat-square&logo=nextdotjs&logoColor=white)
+![Postgres](https://img.shields.io/badge/PostgreSQL-14B8A6?style=flat-square&logo=postgresql&logoColor=white)
 
-[Live ↗](https://hscaportal.vercel.app)
+<a href="https://hscaportal.vercel.app"><b>▶ Live</b></a>
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://hirebuddy.ai"><img src="assets/hirebuddy.png" width="100%" alt="HireBuddy" /></a>
+
+#### 🤝 HireBuddy — AI Recruiting Platform
+Built the AI candidate-sourcing engine (Elasticsearch-DSL over CoreSignal) — **tripled candidates surfaced per search (100 → 300)** — and co-built a GPT-4o-mini pre-screening engine scoring across 10 evidence-backed dimensions.
+
+![Next.js](https://img.shields.io/badge/Next.js-2563EB?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-2563EB?style=flat-square&logo=typescript&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-2563EB?style=flat-square&logo=elasticsearch&logoColor=white)
+
+<a href="https://hirebuddy.ai"><b>▶ Live product</b></a>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### 🌐 3D Portfolio
-`React` · `Three.js` · `TypeScript`
+<img src="assets/herbaria.svg" width="100%" alt="Harvard Herbaria" />
 
-Immersive interactive room with multi-room navigation, a live GitHub
-contribution heatmap, and a 2D mobile fallback.
+#### 🌿 Harvard Herbaria &nbsp;<sub>@ BU Spark!</sub>
+OCR confidence-preservation layer for a specimen-digitization ML platform — a versioned per-field certainty envelope surfacing Azure vision-OCR to reviewers, plus SSRF + authorization hardening.
 
-[Live ↗](https://kushzingade.vercel.app)
+<sub>Client-owned (BU Spark!) — no public repo</sub>
 
 </td>
 <td width="50%" valign="top">
 
-#### ⚛️ Quantum Entanglement Explorer
-`Next.js` · `Three.js` · `Gemini`
+<img src="assets/microcred.svg" width="100%" alt="Micro-Credentialing platform" />
 
-Interactive physics-education platform with 3D quantum visualizations and
-AI-powered concept grading.
+#### 🎖️ Micro-Credentialing &nbsp;<sub>@ BU Spark!</sub>
+Owned the SE-Chem badge-authoring wizard end-to-end — decomposed an 843-line page into components, killed a stale-closure bug, and batched `createMany` writes cutting DB round-trips to ~13.
 
-[Live ↗](https://h4iideacon.vercel.app)
+<sub>Client-owned (BU Spark!) — no public repo</sub>
 
 </td>
 </tr>
 </table>
 
----
+#### ✨ Highlights
 
-### 🧰 Tech
-
-**Languages**
-![Python](https://img.shields.io/badge/Python-0B1120?style=flat-square&logo=python&logoColor=3776AB)
-![TypeScript](https://img.shields.io/badge/TypeScript-0B1120?style=flat-square&logo=typescript&logoColor=3178C6)
-![JavaScript](https://img.shields.io/badge/JavaScript-0B1120?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![C](https://img.shields.io/badge/C-0B1120?style=flat-square&logo=c&logoColor=A8B9CC)
-![SQL](https://img.shields.io/badge/SQL-0B1120?style=flat-square&logo=postgresql&logoColor=4169E1)
-![PHP](https://img.shields.io/badge/PHP-0B1120?style=flat-square&logo=php&logoColor=777BB4)
-
-**AI / ML**
-![LangGraph](https://img.shields.io/badge/LangGraph-0B1120?style=flat-square&logo=langchain&logoColor=1C3C3C)
-![MCP](https://img.shields.io/badge/MCP-0B1120?style=flat-square&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-0B1120?style=flat-square&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-0B1120?style=flat-square&logo=googlegemini&logoColor=8E75B2)
-![pgvector](https://img.shields.io/badge/pgvector%2FRAG-0B1120?style=flat-square&logo=postgresql&logoColor=4169E1)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-0B1120?style=flat-square&logo=elasticsearch&logoColor=005571)
-
-**Backend & Data**
-![FastAPI](https://img.shields.io/badge/FastAPI-0B1120?style=flat-square&logo=fastapi&logoColor=009688)
-![Flask](https://img.shields.io/badge/Flask-0B1120?style=flat-square&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-0B1120?style=flat-square&logo=nodedotjs&logoColor=5FA04E)
-![Express](https://img.shields.io/badge/Express-0B1120?style=flat-square&logo=express&logoColor=white)
-![Django](https://img.shields.io/badge/Django-0B1120?style=flat-square&logo=django&logoColor=092E20)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0B1120?style=flat-square&logo=postgresql&logoColor=4169E1)
-![Redis](https://img.shields.io/badge/Redis-0B1120?style=flat-square&logo=redis&logoColor=FF4438)
-
-**Frontend**
-![React](https://img.shields.io/badge/React-0B1120?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-0B1120?style=flat-square&logo=nextdotjs&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-0B1120?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
-![Three.js](https://img.shields.io/badge/Three.js-0B1120?style=flat-square&logo=threedotjs&logoColor=white)
-
-**Cloud & DevOps**
-![AWS](https://img.shields.io/badge/AWS-0B1120?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
-![Docker](https://img.shields.io/badge/Docker-0B1120?style=flat-square&logo=docker&logoColor=2496ED)
-![Vercel](https://img.shields.io/badge/Vercel-0B1120?style=flat-square&logo=vercel&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B1120?style=flat-square&logo=railway&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-0B1120?style=flat-square&logo=stripe&logoColor=635BFF)
-![Git](https://img.shields.io/badge/Git-0B1120?style=flat-square&logo=git&logoColor=F05032)
+<table>
+<tr>
+<td width="33%" align="center"><b>🏆 InstructLab KnowFlow</b><br><img src="https://img.shields.io/badge/Best_Use_of_AI-Red_Hat_–_IBM-F59E0B?style=for-the-badge" /><br><sub>LangGraph + MCP agentic workflow automating InstructLab contributions — accepted for upstream evaluation.</sub></td>
+<td width="33%" align="center"><b>🥈 Cognify</b><br><a href="https://github.com/UgaTheDev/Cognify"><img src="https://img.shields.io/badge/2nd_Place-BU_DS+X_2025-F59E0B?style=for-the-badge" /></a><br><sub>AI course & career advisor over 6,000+ BU courses with Gemini recommendations & skill-gap analysis.</sub></td>
+<td width="33%" align="center"><b>⚛️ Quantum Explorer</b><br><a href="https://h4iideacon.vercel.app"><img src="https://img.shields.io/badge/▶_Live-Physics_Education-2563EB?style=for-the-badge" /></a><br><sub>Interactive 3D quantum-entanglement platform with AI-powered concept grading.</sub></td>
+</tr>
+</table>
 
 ---
+
+### 🗺️ How I build
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#171F33','primaryTextColor':'#E6EDF3','primaryBorderColor':'#14B8A6','lineColor':'#10B981','fontSize':'14px'}}}%%
+flowchart LR
+    UI["Frontend\nReact · Next.js · Three.js"] --> API["APIs\nFastAPI · Flask · Express · DRF"]
+    API --> AI["AI Layer\nLangGraph · MCP · Gemini · pgvector RAG"]
+    API --> DATA[("Data\nPostgres · Redis · Elasticsearch")]
+    AI --> DATA
+    API --> INFRA["Infra\nDocker · AWS · Vercel · Railway"]
+    DATA --> INFRA
+```
+
+---
+
+### 🧰 Stack
+
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
+![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
+![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![C](https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=A8B9CC)
+![SQL](https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=4169E1)
+<br>
+![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-0D1117?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=009688)
+![Flask](https://img.shields.io/badge/Flask-0D1117?style=for-the-badge&logo=flask&logoColor=white)
+![Django](https://img.shields.io/badge/Django-0D1117?style=for-the-badge&logo=django&logoColor=092E20)
+<br>
+![Postgres](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=4169E1)
+![Redis](https://img.shields.io/badge/Redis-0D1117?style=for-the-badge&logo=redis&logoColor=FF4438)
+![LangGraph](https://img.shields.io/badge/LangGraph-0D1117?style=for-the-badge&logo=langchain&logoColor=1C3C3C)
+![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
+![AWS](https://img.shields.io/badge/AWS-0D1117?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
+
+<br>
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=UgaTheDev&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=C9D1D9" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UgaTheDev&layout=compact&hide_border=true&langs_count=8&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" alt="top langs" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=UgaTheDev&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=14B8A6&icon_color=10B981&text_color=C9D1D9" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UgaTheDev&layout=compact&hide_border=true&langs_count=8&bg_color=0D1117&title_color=14B8A6&text_color=C9D1D9" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=UgaTheDev&hide_border=true&background=0D1117&stroke=1F2A37&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8&sideNums=C9D1D9&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&dayLabels=C9D1D9" alt="streak" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=UgaTheDev&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4" alt="trophies" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=UgaTheDev&bg_color=0D1117&color=14B8A6&line=10B981&point=047857&area=true&hide_border=true" width="98%" />
 
 </div>
 
 ---
 
-<div align="center">
-<sub>🏆 Red Hat–IBM Hackathon — Best Use of AI · Code &amp; Tell — Audience Choice</sub>
-</div>
+<div align="center"><sub>🏆 Best Use of AI, Red Hat–IBM &nbsp;·&nbsp; 🥈 2nd Place, BU DS+X 2025 &nbsp;·&nbsp; ✦ Code &amp; Tell — Audience Choice</sub></div>

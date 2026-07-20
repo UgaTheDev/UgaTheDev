@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" font-family="'Trebuchet MS','Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0F1A"/><stop offset="1" stop-color="#0E1B24"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34D399"/><stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="gl" cx="0.75" cy="0.25" r="0.7">
+      <stop offset="0" stop-color="#34D399" stop-opacity="0.4"/><stop offset="1" stop-color="#34D399" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#bg)"/>
+  <rect width="800" height="500" rx="16" fill="url(#gl)"/>
+  <rect x="1" y="1" width="798" height="498" rx="15" fill="none" stroke="#1E3A44"/>
+  <!-- leaf motif -->
+  <g transform="translate(555,150)" opacity="0.9">
+    <path d="M120 0 C40 20 -10 90 0 190 C100 180 150 110 120 0 Z" fill="none" stroke="url(#acc)" stroke-width="4"/>
+    <path d="M60 40 C55 90 40 140 12 178" fill="none" stroke="url(#acc)" stroke-width="3" opacity="0.7"/>
+    <path d="M80 60 L108 70 M62 100 L92 106 M45 140 L74 142" stroke="url(#acc)" stroke-width="2.5" opacity="0.6"/>
+  </g>
+  <rect x="56" y="60" width="150" height="34" rx="17" fill="#0F2029" stroke="#34D399" stroke-opacity="0.6"/>
+  <text x="131" y="83" font-size="15" font-weight="700" fill="#C9E3E8" text-anchor="middle">BU SPARK!</text>
+  <text x="56" y="250" font-size="52" font-weight="800" fill="url(#acc)">Harvard Herbaria</text>
+  <text x="58" y="292" font-size="22" font-weight="600" fill="#C9E3E8">ML specimen-digitization platform</text>
+  <text x="58" y="352" font-size="18" fill="#83A6B4">OCR confidence-preservation layer · versioned per-field</text>
+  <text x="58" y="380" font-size="18" fill="#83A6B4">certainty · SSRF + authorization hardening · 15 tests</text>
+  <g font-size="15" font-weight="600" fill="#0B0F1A">
+    <rect x="58" y="418" width="110" height="32" rx="8" fill="#34D399"/><text x="113" y="440" text-anchor="middle">Python</text>
+    <rect x="178" y="418" width="110" height="32" rx="8" fill="#22D3EE"/><text x="233" y="440" text-anchor="middle">FastAPI</text>
+    <rect x="298" y="418" width="120" height="32" rx="8" fill="#2563EB"/><text x="358" y="440" text-anchor="middle" fill="#E6EDF3">Azure OCR</text>
+  </g>
+</svg>
