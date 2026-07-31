@@ -11,8 +11,8 @@
 
 </div>
 
-> **Accelerated CS @ Boston University — but I'd rather show you what I've shipped.**
-> A degree planner used by ~900 students, a nonprofit's entire 250+ endpoint platform, and award-winning AI agents.
+> **Accelerated CS @ Boston University, graduating a year early.**
+> I contribute to llm-d and vLLM, where my job is finding the paths a new feature quietly fails on. Alongside that: a degree planner used by ~900 students, a nonprofit's entire 250+ endpoint platform, and a bounty board that puts real projects in front of any BU student.
 
 ### 📈 Contribution activity
 
@@ -37,6 +37,23 @@
 
 ---
 
+### 🔧 Open source
+
+I contribute to **[llm-d](https://github.com/llm-d/llm-d)**, a CNCF sandbox distributed LLM inference stack founded by Red Hat, Google Cloud, IBM Research, CoreWeave and NVIDIA, and to **[vLLM](https://github.com/vllm-project/vllm)**.
+
+<table>
+<tr>
+<td width="25%" align="center" valign="top"><br><b>4</b><br><sub>pull requests merged, reviewed and approved by two separate core maintainers including the project lead</sub></td>
+<td width="25%" align="center" valign="top"><br><b>9</b><br><sub>defects found and filed against a newly released no-Kubernetes deployment path, 6 reproduced live with tracebacks</sub></td>
+<td width="25%" align="center" valign="top"><br><b>11</b><br><sub>pull requests across the core, benchmark and documentation repositories</sub></td>
+<td width="25%" align="center" valign="top"><br><b>2</b><br><sub>code reviews given on other contributors' pull requests</sub></td>
+</tr>
+</table>
+
+What I am actually useful for: running a brand-new feature on a machine its maintainers do not have, a clean macOS laptop with no cluster and no GPU, and finding the paths where it reports success while doing nothing. That produced nine issues against one feature, including a container name collision that let one deployment's teardown destroy a sibling deployment's running containers.
+
+Reviewing counts too. On someone else's pull request I found that a proposed dependency pin would fail the project's own version comparison, so every install would re-run the installer and silently overwrite the user's `kubectl` binary. Proven by running the project's own function against the proposed value.
+
 ### 🚀 Featured work
 
 <table>
@@ -60,7 +77,7 @@ Autonomous banks, central banks & payment rails (RTGS/ACH/SWIFT/CLS/DTCC), syste
 <a href="https://terriertracker.vercel.app"><img src="assets/terrier.png" width="100%" alt="Terrier Tracker" /></a>
 
 #### 🎓 Terrier Tracker
-Degree planning for **~900 BU students** across 6,000+ courses. Gemini + pgvector RAG recommender; Redis layer at **~81% hit rate** over 66k+ lookups.
+Degree planning for **~900 BU students** across 6,000+ courses. Requirement-validation engine, vector-embedding semantic recommender replacing a quota-limited LLM at zero marginal cost, Redis layer at **~81% hit rate** over 66k+ lookups.
 
 ![Flask](https://img.shields.io/badge/Flask-2563EB?style=flat-square&logo=flask&logoColor=black)
 ![React](https://img.shields.io/badge/React-2563EB?style=flat-square&logo=react&logoColor=black)
@@ -141,7 +158,7 @@ Owned the SE-Chem badge-authoring wizard end-to-end — decomposed an 843-line p
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#171F33','primaryTextColor':'#E6EDF3','primaryBorderColor':'#14B8A6','lineColor':'#10B981','fontSize':'14px'}}}%%
 flowchart LR
     UI["Frontend\nReact · Next.js · Three.js"] --> API["APIs\nFastAPI · Flask · Express · DRF"]
-    API --> AI["AI Layer\nLangGraph · MCP · Gemini · pgvector RAG"]
+    API --> AI["AI Layer\nLangGraph · MCP · embeddings · TF-IDF retrieval"]
     API --> DATA[("Data\nPostgres · Redis · Elasticsearch")]
     AI --> DATA
     API --> INFRA["Infra\nDocker · AWS · Vercel · Railway"]
