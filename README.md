@@ -12,7 +12,7 @@
 </div>
 
 > **Accelerated CS @ Boston University, graduating a year early.**
-> I contribute to llm-d and vLLM, where my job is finding the paths a new feature quietly fails on. Alongside that: a degree planner used by ~900 students, a nonprofit's entire 250+ endpoint platform, and a bounty board that puts real projects in front of any BU student.
+> I build production systems as the sole engineer — a degree planner used by ~900 students, and a nonprofit's entire 250+ endpoint platform. Alongside that, I contribute to the LLM inference stack (vLLM, llm-d, KServe, InstructLab): my niche there is finding the paths a new feature quietly fails on.
 
 ### 📈 Contribution activity
 
@@ -37,15 +37,15 @@
 
 ---
 
-### 🔧 Open source
+### 🔧 Open source — LLM inference stack
 
-I contribute to **[llm-d](https://github.com/llm-d/llm-d)**, a CNCF sandbox distributed LLM inference stack founded by Red Hat, Google Cloud, IBM Research, CoreWeave and NVIDIA, and to **[vLLM](https://github.com/vllm-project/vllm)**.
+I contribute to **[vLLM](https://github.com/vllm-project/vllm)**, **[llm-d](https://github.com/llm-d/llm-d)** (a CNCF sandbox distributed LLM inference stack founded by Red Hat, Google Cloud, IBM Research, CoreWeave and NVIDIA), **[KServe](https://github.com/kserve/kserve)**, and Red Hat's **[InstructLab](https://github.com/instructlab/training)**.
 
 <table>
 <tr>
-<td width="25%" align="center" valign="top"><br><b>4</b><br><sub>pull requests merged, reviewed and approved by two separate core maintainers including the project lead</sub></td>
+<td width="25%" align="center" valign="top"><br><b>32</b><br><sub>pull requests opened across vLLM, llm-d, KServe & InstructLab</sub></td>
+<td width="25%" align="center" valign="top"><br><b>13</b><br><sub>merged — including 12 into llm-d-benchmark, reviewed and approved by two separate core maintainers</sub></td>
 <td width="25%" align="center" valign="top"><br><b>9</b><br><sub>defects found and filed against a newly released no-Kubernetes deployment path, 6 reproduced live with tracebacks</sub></td>
-<td width="25%" align="center" valign="top"><br><b>11</b><br><sub>pull requests across the core, benchmark and documentation repositories</sub></td>
 <td width="25%" align="center" valign="top"><br><b>2</b><br><sub>code reviews given on other contributors' pull requests</sub></td>
 </tr>
 </table>
@@ -53,6 +53,8 @@ I contribute to **[llm-d](https://github.com/llm-d/llm-d)**, a CNCF sandbox dist
 What I am actually useful for: running a brand-new feature on a machine its maintainers do not have, a clean macOS laptop with no cluster and no GPU, and finding the paths where it reports success while doing nothing. That produced nine issues against one feature, including a container name collision that let one deployment's teardown destroy a sibling deployment's running containers.
 
 Reviewing counts too. On someone else's pull request I found that a proposed dependency pin would fail the project's own version comparison, so every install would re-run the installer and silently overwrite the user's `kubectl` binary. Proven by running the project's own function against the proposed value.
+
+<sub>Also opened fixes merged into the Kubernetes SIG's **gateway-api-inference-extension** (3 merged, 1 draft) and open PRs against **SGLang**.</sub>
 
 ### 🚀 Featured work
 
@@ -185,7 +187,7 @@ flowchart LR
 ![Redis](https://img.shields.io/badge/Redis-0D1117?style=for-the-badge&logo=redis&logoColor=FF4438)
 ![LangGraph](https://img.shields.io/badge/LangGraph-0D1117?style=for-the-badge&logo=langchain&logoColor=1C3C3C)
 ![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
-![AWS](https://img.shields.io/badge/AWS-0D1117?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
+![AWS](https://img.shields.io/badge/AWS_S3_%C2%B7_DynamoDB-0D1117?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
 
 <br>
 
@@ -200,4 +202,4 @@ flowchart LR
 
 ---
 
-<div align="center"><sub>🏆 Best Use of AI, Red Hat–IBM &nbsp;·&nbsp; 🥈 2nd Place, BU DS+X 2025 &nbsp;·&nbsp; ✦ Code &amp; Tell — Audience Choice</sub></div>
+<div align="center"><sub>🏆 Best Use of AI, Red Hat–IBM &nbsp;·&nbsp; 🥈 2nd Place, BU DS+X 2025</sub></div>
