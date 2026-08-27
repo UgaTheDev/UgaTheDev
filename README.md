@@ -27,7 +27,7 @@
 <table>
 <tr>
 <td width="25%" align="center" valign="top"><br><b>CTO & Sole Engineer</b><br><sub>Honor Society of Cinematic Arts</sub><br><br><sub>Multi-tenant platform · 250+ endpoint API · live across 15+ chapters & 150+ members</sub></td>
-<td width="25%" align="center" valign="top"><br><b>SWE Intern</b><br><sub>BU Spark!</sub><br><br><sub>Harvard Herbaria OCR confidence layer (FastAPI) + micro-credentialing platform</sub></td>
+<td width="25%" align="center" valign="top"><br><b>SWE Intern</b><br><sub>BU Spark!</sub><br><br><sub>Harvard Herbaria OCR confidence layer (FastAPI) · micro-credentialing platform · BU Spark!'s project showcase (sole author, live at atlas.buspark.io)</sub></td>
 <td width="25%" align="center" valign="top"><br><b>SWE Intern</b><br><sub>Doro (Local Treasure)</sub><br><br><sub>TikTok OAuth, Stripe checkout & moderation tooling (Django/DRF)</sub></td>
 <td width="25%" align="center" valign="top"><br><b>Research Assistant</b><br><sub>BU CISS</sub><br><br><sub>Financial markets × geopolitical uncertainty · Python data workflows</sub></td>
 </tr>
@@ -39,14 +39,14 @@
 
 ### 🔧 Open source — LLM inference stack
 
-I contribute to **[vLLM](https://github.com/vllm-project/vllm)**, **[llm-d](https://github.com/llm-d/llm-d)** (a CNCF sandbox distributed LLM inference stack founded by Red Hat, Google Cloud, IBM Research, CoreWeave and NVIDIA), **[KServe](https://github.com/kserve/kserve)**, and Red Hat's **[InstructLab](https://github.com/instructlab/training)**.
+I contribute to **[vLLM](https://github.com/vllm-project/vllm)**, **[llm-d](https://github.com/llm-d/llm-d)** (a CNCF sandbox distributed LLM inference stack founded by Red Hat, Google Cloud, IBM Research, CoreWeave and NVIDIA), **[KServe](https://github.com/kserve/kserve)**, and Red Hat's **[InstructLab](https://github.com/instructlab/training)**. Contributions now also span **Grafana**, **Redis** (node-redis — merged fix), **Prisma**, **MLflow**, **Keras**, **Datadog**, and the **Model Context Protocol registry** — same method everywhere: reproduce the failure with executed evidence before proposing the fix.
 
 <table>
 <tr>
-<td width="25%" align="center" valign="top"><br><b>32</b><br><sub>pull requests opened across vLLM, llm-d, KServe & InstructLab</sub></td>
-<td width="25%" align="center" valign="top"><br><b>13</b><br><sub>merged — including 12 into llm-d-benchmark, reviewed and approved by two separate core maintainers</sub></td>
+<td width="25%" align="center" valign="top"><br><b>48</b><br><sub>pull requests across 19 repositories in 14 organizations</sub></td>
+<td width="25%" align="center" valign="top"><br><b>17</b><br><sub>merged — including 12 into llm-d-benchmark reviewed and approved by two separate core maintainers, plus fixes merged into vLLM and node-redis</sub></td>
 <td width="25%" align="center" valign="top"><br><b>9</b><br><sub>defects found and filed against a newly released no-Kubernetes deployment path, 6 reproduced live with tracebacks</sub></td>
-<td width="25%" align="center" valign="top"><br><b>2</b><br><sub>code reviews given on other contributors' pull requests</sub></td>
+<td width="25%" align="center" valign="top"><br><b>~30</b><br><sub>substantive code reviews and root-cause analyses on other contributors' PRs and issues</sub></td>
 </tr>
 </table>
 
