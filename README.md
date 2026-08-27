@@ -43,7 +43,7 @@ I contribute to **[vLLM](https://github.com/vllm-project/vllm)**, **[llm-d](http
 
 <table>
 <tr>
-<td width="25%" align="center" valign="top"><br><b>48</b><br><sub>pull requests across 19 repositories in 14 organizations</sub></td>
+<td width="25%" align="center" valign="top"><br><b>53</b><br><sub>pull requests across 21 repositories in 15 organizations</sub></td>
 <td width="25%" align="center" valign="top"><br><b>17</b><br><sub>merged — including 12 into llm-d-benchmark reviewed and approved by two separate core maintainers, plus fixes merged into vLLM and node-redis</sub></td>
 <td width="25%" align="center" valign="top"><br><b>9</b><br><sub>defects found and filed against a newly released no-Kubernetes deployment path, 6 reproduced live with tracebacks</sub></td>
 <td width="25%" align="center" valign="top"><br><b>~30</b><br><sub>substantive code reviews and root-cause analyses on other contributors' PRs and issues</sub></td>
