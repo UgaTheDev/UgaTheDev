@@ -189,17 +189,6 @@ flowchart LR
 ![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
 ![AWS](https://img.shields.io/badge/AWS_S3_%C2%B7_DynamoDB-0D1117?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
 
-<br>
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=UgaTheDev&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=14B8A6&icon_color=10B981&text_color=C9D1D9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UgaTheDev&layout=compact&hide_border=true&langs_count=8&bg_color=0D1117&title_color=14B8A6&text_color=C9D1D9" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=UgaTheDev&bg_color=0D1117&color=14B8A6&line=10B981&point=047857&area=true&hide_border=true" width="98%" />
-
-</div>
-
 ---
 
 <div align="center"><sub>🏆 Best Use of AI, Red Hat–IBM &nbsp;·&nbsp; 🥈 2nd Place, BU DS+X 2025</sub></div>
