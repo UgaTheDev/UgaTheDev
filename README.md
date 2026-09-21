@@ -12,7 +12,7 @@
 </div>
 
 > **Accelerated CS @ Boston University, graduating a year early.**
-> I build production systems as the sole engineer — a degree planner used by ~900 students, and a nonprofit's entire 250+ endpoint platform. Alongside that, I contribute to the LLM inference stack (vLLM, llm-d, KServe, InstructLab): my niche there is finding the paths a new feature quietly fails on.
+> I build production systems as the sole engineer — a degree planner used by ~950 students, and a nonprofit's entire 250+ endpoint platform. Alongside that, I contribute to the LLM inference stack (vLLM, llm-d, KServe, InstructLab): my niche there is finding the paths a new feature quietly fails on.
 
 ### 📈 Contribution activity
 
@@ -26,9 +26,9 @@
 
 <table>
 <tr>
-<td width="25%" align="center" valign="top"><br><b>CTO & Sole Engineer</b><br><sub>Honor Society of Cinematic Arts</sub><br><br><sub>Multi-tenant platform · 250+ endpoint API · live across 15+ chapters & 150+ members</sub></td>
+<td width="25%" align="center" valign="top"><br><b>CTO & Sole Engineer</b><br><sub>Honor Society of Cinematic Arts</sub><br><br><sub>Multi-tenant platform · 250+ endpoint API · live across 15+ chapters & 150+ members</sub><br><sub><a href="https://portal.honorsocietyofcinematicarts.org">portal</a></sub></td>
 <td width="25%" align="center" valign="top"><br><b>SWE Intern</b><br><sub>BU Spark!</sub><br><br><sub>Harvard Herbaria OCR confidence layer (FastAPI) · micro-credentialing platform · BU Spark!'s project showcase (sole author, live at atlas.buspark.io)</sub></td>
-<td width="25%" align="center" valign="top"><br><b>SWE Intern</b><br><sub>Doro (Local Treasure)</sub><br><br><sub>TikTok OAuth, Stripe checkout & moderation tooling (Django/DRF)</sub></td>
+<td width="25%" align="center" valign="top"><br><b>SWE Intern</b><br><sub>Doro (Local Treasure)</sub><br><br><sub>TikTok OAuth, Stripe checkout & moderation tooling (Django/DRF)</sub><br><sub><a href="https://getdoro.co/">getdoro.co</a></sub></td>
 <td width="25%" align="center" valign="top"><br><b>Research Assistant</b><br><sub>BU CISS</sub><br><br><sub>Financial markets × geopolitical uncertainty · Python data workflows</sub></td>
 </tr>
 </table>
@@ -39,12 +39,12 @@
 
 ### 🔧 Open source — LLM inference stack
 
-I contribute to **[vLLM](https://github.com/vllm-project/vllm)**, **[llm-d](https://github.com/llm-d/llm-d)** (a CNCF sandbox distributed LLM inference stack founded by Red Hat, Google Cloud, IBM Research, CoreWeave and NVIDIA), **[KServe](https://github.com/kserve/kserve)**, and Red Hat's **[InstructLab](https://github.com/instructlab/training)**. Contributions now also span **Grafana**, **Redis** (node-redis — merged fix), **Prisma**, **MLflow**, **Keras**, **Datadog**, and the **Model Context Protocol registry** — same method everywhere: reproduce the failure with executed evidence before proposing the fix.
+I contribute to **[vLLM](https://github.com/vllm-project/vllm)**, **[llm-d](https://github.com/llm-d/llm-d)** (a CNCF sandbox distributed LLM inference stack founded by Red Hat, Google Cloud, IBM Research, CoreWeave and NVIDIA), **[KServe](https://github.com/kserve/kserve)**, **[Grafana](https://github.com/grafana/grafana)**, **[Redis](https://github.com/redis/node-redis)**, **[Keras](https://github.com/keras-team/keras)**, and Red Hat's **[InstructLab](https://github.com/instructlab/training)**. Contributions now also span **Grafana**, **Redis** (node-redis — merged fix), **Prisma**, **MLflow**, **Keras**, **Datadog**, and the **Model Context Protocol registry** — same method everywhere: reproduce the failure with executed evidence before proposing the fix.
 
 <table>
 <tr>
-<td width="25%" align="center" valign="top"><br><b>58</b><br><sub>pull requests across 21 repositories in 15 organizations</sub></td>
-<td width="25%" align="center" valign="top"><br><b>17</b><br><sub>merged — including 12 into llm-d-benchmark reviewed and approved by two separate core maintainers, plus fixes merged into vLLM and node-redis</sub></td>
+<td width="25%" align="center" valign="top"><br><b>64</b><br><sub>pull requests across 24 repositories in 17 organizations</sub></td>
+<td width="25%" align="center" valign="top"><br><b>23</b><br><sub>merged — including a fix in Grafana core shipping in 13.3.0, plus vLLM, node-redis, Keras and KServe</sub></td>
 <td width="25%" align="center" valign="top"><br><b>9</b><br><sub>defects found and filed against a newly released no-Kubernetes deployment path, 6 reproduced live with tracebacks</sub></td>
 <td width="25%" align="center" valign="top"><br><b>~30</b><br><sub>substantive code reviews and root-cause analyses on other contributors' PRs and issues</sub></td>
 </tr>
@@ -79,7 +79,7 @@ Autonomous banks, central banks & payment rails (RTGS/ACH/SWIFT/CLS/DTCC), syste
 <a href="https://terriertracker.vercel.app"><img src="assets/terrier.png" width="100%" alt="Terrier Tracker" /></a>
 
 #### 🎓 Terrier Tracker
-Degree planning for **~900 BU students** across 6,000+ courses. Requirement-validation engine, vector-embedding semantic recommender replacing a quota-limited LLM at zero marginal cost, Redis layer at **~81% hit rate** over 66k+ lookups.
+Degree planning for **~950 BU students** across nearly 10,000 courses. Requirement-validation engine, vector-embedding semantic recommender replacing a quota-limited LLM at zero marginal cost, Redis layer at **~81% hit rate** over 66k+ lookups.
 
 ![Flask](https://img.shields.io/badge/Flask-2563EB?style=flat-square&logo=flask&logoColor=black)
 ![React](https://img.shields.io/badge/React-2563EB?style=flat-square&logo=react&logoColor=black)
@@ -114,7 +114,7 @@ Built the AI candidate-sourcing engine (Elasticsearch-DSL over CoreSignal) — *
 ![TypeScript](https://img.shields.io/badge/TypeScript-2563EB?style=flat-square&logo=typescript&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-2563EB?style=flat-square&logo=elasticsearch&logoColor=white)
 
-<a href="https://hirebuddy.ai"><b>▶ Live product</b></a>
+<a href="https://www.hirebuddy.ai/features/talentscout"><b>▶ TalentScout, the feature I built</b></a>
 
 </td>
 </tr>
