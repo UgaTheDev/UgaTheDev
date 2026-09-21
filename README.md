@@ -79,7 +79,7 @@ Autonomous banks, central banks & payment rails (RTGS/ACH/SWIFT/CLS/DTCC), syste
 <a href="https://terriertracker.vercel.app"><img src="assets/terrier.png" width="100%" alt="Terrier Tracker" /></a>
 
 #### 🎓 Terrier Tracker
-Degree planning for **~950 BU students** across nearly 10,000 courses. Requirement-validation engine, vector-embedding semantic recommender replacing a quota-limited LLM at zero marginal cost, Redis layer at **~81% hit rate** over 66k+ lookups.
+Degree planning for **~950 BU students** across nearly 10,000 courses. Requirement-validation engine, vector-embedding semantic recommender replacing a quota-limited LLM at zero marginal cost, Redis layer at **~81% hit rate** over 660k+ lookups.
 
 ![Flask](https://img.shields.io/badge/Flask-2563EB?style=flat-square&logo=flask&logoColor=black)
 ![React](https://img.shields.io/badge/React-2563EB?style=flat-square&logo=react&logoColor=black)
