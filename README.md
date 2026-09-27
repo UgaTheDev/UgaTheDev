@@ -43,10 +43,10 @@ I contribute to **[vLLM](https://github.com/vllm-project/vllm)**, **[llm-d](http
 
 <table>
 <tr>
-<td width="25%" align="center" valign="top"><br><b>64</b><br><sub>pull requests across 24 repositories in 17 organizations</sub></td>
+<td width="25%" align="center" valign="top"><br><b>65</b><br><sub>pull requests across 24 repositories in 17 organizations</sub></td>
 <td width="25%" align="center" valign="top"><br><b>23</b><br><sub>merged — including a fix in Grafana core shipping in 13.3.0, plus vLLM, node-redis, Keras and KServe</sub></td>
 <td width="25%" align="center" valign="top"><br><b>9</b><br><sub>defects found and filed against a newly released no-Kubernetes deployment path, 6 reproduced live with tracebacks</sub></td>
-<td width="25%" align="center" valign="top"><br><b>~30</b><br><sub>substantive code reviews and root-cause analyses on other contributors' PRs and issues</sub></td>
+<td width="25%" align="center" valign="top"><br><b>19</b><br><sub>reviews on other contributors' pull requests across 10 repositories</sub></td>
 </tr>
 </table>
 
@@ -54,7 +54,17 @@ What I am actually useful for: running a brand-new feature on a machine its main
 
 Reviewing counts too. On someone else's pull request I found that a proposed dependency pin would fail the project's own version comparison, so every install would re-run the installer and silently overwrite the user's `kubectl` binary. Proven by running the project's own function against the proposed value.
 
-<sub>Also opened fixes merged into the Kubernetes SIG's **gateway-api-inference-extension** (3 merged, 1 draft) and open PRs against **SGLang**.</sub>
+#### Selected merged work
+
+| Project | What merged |
+|---|---|
+| **llm-d-benchmark** (13 merged) | [Benchmarking Agent core](https://github.com/llm-d/llm-d-benchmark/pull/1687): deterministic recommendation, Kubernetes job rendering and SLO-goodput scoring, 2,500+ lines with 60 offline tests · nok8s deployment fixes: [per-stack container/port scoping](https://github.com/llm-d/llm-d-benchmark/pull/1709) (a teardown was destroying a sibling's containers), [fail fast + rollback on standup](https://github.com/llm-d/llm-d-benchmark/pull/1757), [preflight that passed silently](https://github.com/llm-d/llm-d-benchmark/pull/1755), [smoketest without a cluster](https://github.com/llm-d/llm-d-benchmark/pull/1708) · [PVC bind budget carried into the pod wait](https://github.com/llm-d/llm-d-benchmark/pull/1696) · [guidellm guard reporting the real cause](https://github.com/llm-d/llm-d-benchmark/pull/1683) |
+| **Kubernetes SIG** gateway-api-inference-extension | [gRPC health port + secure-serving defaults dropped by the runner](https://github.com/kubernetes-sigs/gateway-api-inference-extension/pull/3010) · [0% → 100% coverage of a reconciler hot-path conversion](https://github.com/kubernetes-sigs/gateway-api-inference-extension/pull/3011) · [inverted pod lifecycle log](https://github.com/kubernetes-sigs/gateway-api-inference-extension/pull/3013) |
+| **Grafana** core | [ensureTags never deleted removed tag links](https://github.com/grafana/grafana/pull/131464): a zero-valued ID in a `DELETE` predicate that could never match (ships in 13.3.0) |
+| **vLLM** | [Apple Silicon BF16 probe falls back instead of raising](https://github.com/vllm-project/vllm/pull/51627) |
+| **KServe** | [HPA scale-target bounds applied per metric](https://github.com/kserve/kserve/pull/6140) · [scheduler Role granted events create/patch](https://github.com/kserve/kserve/pull/6142) |
+| **node-redis** · **Keras** · **llm-d** | [SCAN iterators that never terminated under Buffer mapping](https://github.com/redis/node-redis/pull/3428) · [`nextafter` returning inf](https://github.com/keras-team/keras/pull/23417) · [batch-gateway dashboards + alerts](https://github.com/llm-d/llm-d/pull/2390) |
+
 
 ### 🚀 Featured work
 
