@@ -39,7 +39,7 @@
 
 ### 🔧 Open source — LLM inference stack
 
-I contribute to **[vLLM](https://github.com/vllm-project/vllm)**, **[llm-d](https://github.com/llm-d/llm-d)** (a CNCF sandbox distributed LLM inference stack founded by Red Hat, Google Cloud, IBM Research, CoreWeave and NVIDIA), **[KServe](https://github.com/kserve/kserve)**, **[Grafana](https://github.com/grafana/grafana)**, **[Redis](https://github.com/redis/node-redis)**, **[Keras](https://github.com/keras-team/keras)**, and Red Hat's **[InstructLab](https://github.com/instructlab/training)**. Contributions now also span **Grafana**, **Redis** (node-redis — merged fix), **Prisma**, **MLflow**, **Keras**, **Datadog**, and the **Model Context Protocol registry** — same method everywhere: reproduce the failure with executed evidence before proposing the fix.
+I contribute to **[vLLM](https://github.com/vllm-project/vllm)**, **[llm-d](https://github.com/llm-d/llm-d)** (a CNCF sandbox distributed LLM inference stack founded by Red Hat, Google Cloud, IBM Research, CoreWeave and NVIDIA), **[KServe](https://github.com/kserve/kserve)**, **[Grafana](https://github.com/grafana/grafana)**, **[Redis](https://github.com/redis/node-redis)**, **[Keras](https://github.com/keras-team/keras)**, and Red Hat's **[InstructLab](https://github.com/instructlab/training)**. Also **Prisma**, **MLflow**, **Datadog**, **SGLang** and the **Model Context Protocol registry**. Same method everywhere: reproduce the failure with executed evidence before proposing the fix.
 
 <table>
 <tr>
@@ -92,7 +92,7 @@ Degree planning for **~950 BU students** across nearly 10,000 courses. Requireme
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://hscaportal.vercel.app"><img src="assets/hsca.png" width="100%" alt="HSCA Portal" /></a>
+<a href="https://portal.honorsocietyofcinematicarts.org"><img src="assets/hsca.png" width="100%" alt="HSCA Portal" /></a>
 
 #### 🎭 HSCA Portal
 The production system of record behind my CTO role — member lifecycle, payment-gated resources, evaluation forms & a film festival, with per-chapter tenant isolation.
@@ -100,7 +100,7 @@ The production system of record behind my CTO role — member lifecycle, payment
 ![Next.js](https://img.shields.io/badge/Next.js-14B8A6?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Postgres](https://img.shields.io/badge/PostgreSQL-14B8A6?style=flat-square&logo=postgresql&logoColor=white)
 
-<a href="https://hscaportal.vercel.app"><b>▶ Live</b></a>
+<a href="https://portal.honorsocietyofcinematicarts.org"><b>▶ Live</b></a>
 
 </td>
 <td width="50%" valign="top">
