@@ -3,7 +3,7 @@
 <img src="assets/hero.svg" width="100%" alt="Kush Zingade — CTO & Engineer" />
 
 <p>
-  <a href="https://kushzingade.vercel.app"><img src="https://img.shields.io/badge/Portfolio-10B981?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://kushzingade.com"><img src="https://img.shields.io/badge/Portfolio-10B981?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://linkedin.com/in/kush-zingade"><img src="https://img.shields.io/badge/LinkedIn-14B8A6?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:kush.zingade@gmail.com"><img src="https://img.shields.io/badge/Email-2563EB?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <img src="https://komarev.com/ghpvc/?username=UgaTheDev&style=for-the-badge&color=10B981&label=VIEWS&base=300" />
@@ -12,7 +12,7 @@
 </div>
 
 > **Accelerated CS @ Boston University, graduating a year early.**
-> I build production systems as the sole engineer — a degree planner used by ~950 students, and a nonprofit's entire 250+ endpoint platform. Alongside that, I contribute to the LLM inference stack (vLLM, llm-d, KServe, InstructLab): my niche there is finding the paths a new feature quietly fails on.
+> I build production systems as the sole engineer — a degree planner used by 1,000+ students, and a nonprofit's entire ~300-endpoint platform. Alongside that, I contribute to the LLM inference stack (vLLM, llm-d, KServe, InstructLab): my niche there is finding the paths a new feature quietly fails on.
 
 ### 📈 Contribution activity
 
@@ -26,7 +26,7 @@
 
 <table>
 <tr>
-<td width="25%" align="center" valign="top"><br><b>CTO & Sole Engineer</b><br><sub>Honor Society of Cinematic Arts</sub><br><br><sub>Multi-tenant platform · 250+ endpoint API · live across 15+ chapters & 150+ members</sub><br><sub><a href="https://portal.honorsocietyofcinematicarts.org">portal</a></sub></td>
+<td width="25%" align="center" valign="top"><br><b>CTO & Sole Engineer</b><br><sub>Honor Society of Cinematic Arts</sub><br><br><sub>Multi-tenant platform · ~300-endpoint API · live across 20+ chapters in 9 countries & 250+ users</sub><br><sub><a href="https://portal.honorsocietyofcinematicarts.org">portal</a></sub></td>
 <td width="25%" align="center" valign="top"><br><b>SWE Intern</b><br><sub>BU Spark!</sub><br><br><sub>Harvard Herbaria OCR confidence layer (FastAPI) · micro-credentialing platform · BU Spark!'s project showcase (sole author, live at atlas.buspark.io)</sub></td>
 <td width="25%" align="center" valign="top"><br><b>SWE Intern</b><br><sub>Doro (Local Treasure)</sub><br><br><sub>TikTok OAuth, Stripe checkout & moderation tooling (Django/DRF)</sub><br><sub><a href="https://getdoro.co/">getdoro.co</a></sub></td>
 <td width="25%" align="center" valign="top"><br><b>Research Assistant</b><br><sub>BU CISS</sub><br><br><sub>Financial markets × geopolitical uncertainty · Python data workflows</sub></td>
@@ -43,8 +43,8 @@ I contribute to **[vLLM](https://github.com/vllm-project/vllm)**, **[llm-d](http
 
 <table>
 <tr>
-<td width="25%" align="center" valign="top"><br><b>65</b><br><sub>pull requests across 24 repositories in 17 organizations</sub></td>
-<td width="25%" align="center" valign="top"><br><b>23</b><br><sub>merged — including a fix in Grafana core shipping in 13.3.0, plus vLLM, node-redis, Keras and KServe</sub></td>
+<td width="25%" align="center" valign="top"><br><b>67</b><br><sub>pull requests across 24 repositories in 17 organizations</sub></td>
+<td width="25%" align="center" valign="top"><br><b>26</b><br><sub>merged — including a fix in Grafana core shipping in 13.3.0, plus vLLM, node-redis, Keras and KServe</sub></td>
 <td width="25%" align="center" valign="top"><br><b>9</b><br><sub>defects found and filed against a newly released no-Kubernetes deployment path, 6 reproduced live with tracebacks</sub></td>
 <td width="25%" align="center" valign="top"><br><b>19</b><br><sub>reviews on other contributors' pull requests across 10 repositories</sub></td>
 </tr>
@@ -89,7 +89,7 @@ Autonomous banks, central banks & payment rails (RTGS/ACH/SWIFT/CLS/DTCC), syste
 <a href="https://terriertracker.vercel.app"><img src="assets/terrier.png" width="100%" alt="Terrier Tracker" /></a>
 
 #### 🎓 Terrier Tracker
-Degree planning for **~950 BU students** across nearly 10,000 courses. Requirement-validation engine, vector-embedding semantic recommender replacing a quota-limited LLM at zero marginal cost, Redis layer at **~81% hit rate** over 660k+ lookups.
+Degree planning for **1,000+ BU students** across nearly 10,000 courses. Requirement-validation engine, vector-embedding semantic recommender replacing a quota-limited LLM at zero marginal cost, Redis layer at **~81% hit rate** over 660k+ lookups.
 
 ![Flask](https://img.shields.io/badge/Flask-2563EB?style=flat-square&logo=flask&logoColor=black)
 ![React](https://img.shields.io/badge/React-2563EB?style=flat-square&logo=react&logoColor=black)
